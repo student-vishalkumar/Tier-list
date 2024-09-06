@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1e4f60;
+    
+}
+
+h1, label {
+    background-color: black;
+    color: rgb(207, 206, 213);
+
+}
+#tier, #image-item {
+    padding: 5px;
+}
+
+.submitBtn {
+    padding: 5px 10px;
+    background-color: #FF7F7F;
+    border-radius: 10px;
+}
+
+.tier-list {
+    margin-top: 2rem;
+    border: 3px solid rgb(6, 5, 5);
+    border-radius: 10px;
+    display: flex;
+    height: 75px;
+
+}
+
+.heading {
+    border-right: 1px solid white;
+    background-color: #FF7F7F;
+    height: 100%;
+    font-size: xx-large;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#non-tier-section {
+    display: flex;
+    gap: 1rem;
+}
+
+.item-container {
+    width: 75px;
+    height: 75px;
+    margin-left: 5px;
+}
+
+.tier-list-items {
+    min-width: 50%;
+    display: flex;
+}
+
+.item-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
