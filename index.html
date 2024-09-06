@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>Your own tier list App..</h1>
+    <form>
+        <label for="tier"></label>
+        <input type="text" id="tier" name="tier" placeholder="Give tier name...">
+        <button type="submit" id="submit" class="submitbtn">click me</button>
+    </form>
+
+    <form id="image-form">
+        <label for="image-item"></label>
+        <input type="text" id="image-item" name="tier" placeholder="Give item image url...">
+        <button type="submit" id="submitImage" class="submitbtn">click me</button>
+    </form>
+
+    <section id="tier-list-section">
+        <!-- <div id="tier-list">
+            <h1>tier list</h1>
+            <div class="tier-list-items"></div>
+        </div> -->
+    </section>
+
+    <section id="non-tier-section">
+        <div class="item-container" draggable="true">
+            <img src="https://cdn.britannica.com/30/182830-050-96F2ED76/Chris-Evans-title-character-Joe-Johnston-Captain.jpg" alt="">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
